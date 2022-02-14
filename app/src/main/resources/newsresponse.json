@@ -1,0 +1,266 @@
+{
+  "status": "ok",
+  "totalResults": 38,
+  "articles": [
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Dakin Andone, CNN",
+      "title": "After 8 years, a retired Florida police captain will stand trial for killing a man in an argument about texting in a movie theater - CNN",
+      "description": "A 79-year-old man is finally expected to stand trial this week, eight years after he fatally shot a man who was texting in a Florida movie theater.",
+      "url": "https://www.cnn.com/2022/02/14/us/curtis-reeves-trial-florida/index.html",
+      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/220206142601-03-curtis-reeves-trial-florida-super-tease.jpg",
+      "publishedAt": "2022-02-14T11:49:00Z",
+      "content": "(CNN)A 79-year-old man is finally expected to stand trial this week, eight years after he fatally shot a man who was texting in a Florida movie theater.\r\nOpening statements are set to begin Monday mo… [+4973 chars]"
+    },
+    {
+      "source": {
+        "id": "reuters",
+        "name": "Reuters"
+      },
+      "author": null,
+      "title": "Lockheed scraps $4.4 billion deal to buy Aerojet amid regulatory roadblocks - Reuters",
+      "description": "U.S. arms maker Lockheed Martin Corp <a href=\"https://www.reuters.com/companies/LMT.N\" target=\"_blank\">(LMT.N)</a> called off plans on Sunday to acquire rocket engine maker Aerojet Rocketdyne Holdings Inc <a href=\"https://www.reuters.com/companies/AJRD.N\" tar…",
+      "url": "https://www.reuters.com/business/aerospace-defense/lockheed-martin-terminates-44-bln-deal-acquire-aerojet-rocketdyne-2022-02-13/",
+      "urlToImage": "https://www.reuters.com/resizer/iTdK4MnuuRDJ1phJtTMQDfM0Zrw=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/3764DD6NXZOONPROXIM4HJQKU4.jpg",
+      "publishedAt": "2022-02-14T11:09:00Z",
+      "content": "Feb 13 (Reuters) - U.S. arms maker Lockheed Martin Corp (LMT.N) called off plans on Sunday to acquire rocket engine maker Aerojet Rocketdyne Holdings Inc (AJRD.N) for $4.4 billion amid opposition fro… [+2387 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "The Guardian"
+      },
+      "author": "Peter Stone",
+      "title": "Alarm as Trump backs ‘big lie’ candidates for key election posts in Michigan - The Guardian",
+      "description": "A Trumpist takeover of the battleground state is raising eyebrows over concerns of the end of ‘free and fair elections’",
+      "url": "https://amp.theguardian.com/us-news/2022/feb/14/election-deniers-michigan-elections-donald-trump",
+      "urlToImage": null,
+      "publishedAt": "2022-02-14T11:05:00Z",
+      "content": "Donald TrumpA Trumpist takeover of the battleground state is raising eyebrows over concerns of the end of free and fair elections\r\nMon 14 Feb 2022 10.00 GMT\r\nDonald Trump has endorsed rightwing Repub… [+7693 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "New York Times"
+      },
+      "author": "Simon Romero",
+      "title": "Pedestrian Deaths Spike in U.S. as Reckless Driving Surges - The New York Times",
+      "description": "Fatalities are climbing to record levels two years into the pandemic. Authorities cite drivers’ anxiety levels, larger vehicles and fraying social norms.",
+      "url": "https://www.nytimes.com/2022/02/14/us/pedestrian-deaths-pandemic.html",
+      "urlToImage": "https://static01.nyt.com/images/2022/02/08/us/XXPEDESTRIANS-1/XXPEDESTRIANS-1-facebookJumbo.jpg",
+      "publishedAt": "2022-02-14T10:00:21Z",
+      "content": "The streets of Albuquerque, where Pronoy Bhattacharya was killed in the hit-and-run, showcase the challenges that pedestrians face. Around the sprawling metro area, home to almost one million people,… [+2160 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "New York Post"
+      },
+      "author": "Associated Press",
+      "title": "1 dead, 8 hospitalized after drinks spiked in Bavarian bar - New York Post ",
+      "description": "One man died and eight others were hospitalized in serious condition after drinking spiked drinks at a bar in Bavaria, German police said Monday.",
+      "url": "https://nypost.com/2022/02/14/1-dead-8-hospitalized-after-spiked-drinks-in-bavarian-bar/",
+      "urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2022/02/AP22044621806420.jpg?quality=90&strip=all&w=1024",
+      "publishedAt": "2022-02-14T09:43:41Z",
+      "content": "BERLIN One man died and eight others were hospitalized in serious condition after drinking spiked drinks at a bar in Bavaria, German police said Monday.\r\nThe man who died was 52 years old, and the ot… [+664 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Amir Vera, CNN",
+      "title": "Rams beat Bengals to win Super Bowl LVI - CNN",
+      "description": "The Los Angeles Rams defeated the Cincinnati Bengals 23-20 in Super Bowl LVI on Sunday.",
+      "url": "https://www.cnn.com/2022/02/13/us/rams-vs-bengals-super-bowl-lvi/index.html",
+      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/220213221331-57-super-bowl-2022-super-tease.jpg",
+      "publishedAt": "2022-02-14T09:41:00Z",
+      "content": "(CNN)The Los Angeles Rams defeated the Cincinnati Bengals 23-20 in Super Bowl LVI on Sunday.\r\nThe suspenseful game ended with a fourth-down stop by Rams defensive tackle Aaron Donald to win it all. T… [+2681 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Susannah Cullinane, CNN",
+      "title": "A vital US-Canadian border crossing reopens after trucker blockade of Ambassador Bridge is cleared - CNN",
+      "description": "North America's busiest land border crossing has reopened after a nearly weeklong blockade of the Ambassador Bridge by protesters decrying Covid-19 mandates, the company that owns the bridge says.",
+      "url": "https://www.cnn.com/2022/02/14/americas/canada-truckers-protest-monday/index.html",
+      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/220214000814-ambassador-bridge-02132022-super-tease.jpg",
+      "publishedAt": "2022-02-14T09:36:00Z",
+      "content": "(CNN)North America's busiest land border crossing has reopened after a nearly weeklong blockade of the Ambassador Bridge by protesters decrying Covid-19 mandates, the company that owns the bridge say… [+4859 chars]"
+    },
+    {
+      "source": {
+        "id": "politico",
+        "name": "Politico"
+      },
+      "author": null,
+      "title": "Judiciary senators say they're over Kavanaugh. SCOTUS nominee will test that. - POLITICO",
+      "description": "Democrats and Republicans alike insist they've forgiven the other side after the fight surrounding Justice Brett Kavanaugh. But they certainly haven't forgotten.",
+      "url": "https://www.politico.com/news/2022/02/14/judiciary-senators-kavanaugh-supreme-court-nominee-00008367",
+      "urlToImage": "https://static.politico.com/a8/e1/6a97b88e4e669b0836c1929468c7/biden-28595.jpg",
+      "publishedAt": "2022-02-14T09:30:00Z",
+      "content": "Judiciary members on both sides of the aisle predict that the still-unnamed nominees confirmation hearing will be civil. But the panels handling of her forthcoming selection by Joe Biden, the first f… [+6110 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "CNBC"
+      },
+      "author": "Maggie Fitzgerald, Matt Clinch",
+      "title": "U.S. Treasury yields edge lower on Russia-Ukraine fears - CNBC",
+      "description": "U.S. Treasury yields fell slightly on Monday with investors opting for safe-haven assets amid the escalated geopolitical tensions between Russia and Ukraine.",
+      "url": "https://www.cnbc.com/2022/02/14/us-treasury-yields-edge-lower-on-russia-ukraine-fears.html",
+      "urlToImage": "https://image.cnbcfm.com/api/v1/image/107007030-1643236231190-nyse.jpg?v=1643236287",
+      "publishedAt": "2022-02-14T08:36:49Z",
+      "content": "U.S. Treasury yields fell slightly on Monday with investors opting for safe-haven assets amid the escalated geopolitical tensions between Russia and Ukraine.\r\nThe yield on the benchmark 10-year Treas… [+651 chars]"
+    },
+    {
+      "source": {
+        "id": "associated-press",
+        "name": "Associated Press"
+      },
+      "author": "James Ellingworth",
+      "title": "Russian skater Kamila Valieva cleared to compete at Olympics - Associated Press",
+      "description": "BEIJING (AP) — Russian figure skater Kamila Valieva has been cleared to compete in the women's figure skating competition at the Winter Olympics despite failing a pre-Games drug test. The Court of Arbitration for Sport ruled after a hastily arranged hearing t…",
+      "url": "https://apnews.com/article/winter-olympics-kamila-valieva-doping-decision-0dd063b5092681697525b69cd0c7212d",
+      "urlToImage": "https://storage.googleapis.com/afs-prod/media/3a9c6fb11e394f16bffc0cfda2a2884e/3000.jpeg",
+      "publishedAt": "2022-02-14T08:10:16Z",
+      "content": "BEIJING (AP) Russian figure skater Kamila Valieva has been cleared to compete in the womens figure skating competition at the Winter Olympics despite failing a pre-Games drug test.\r\nThe Court of Arbi… [+574 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "YouTube"
+      },
+      "author": null,
+      "title": "Horizon Forbidden West Review (Spoiler Free) - HORIZON FORBIDDEN WEST 60FPS PS5 GAMEPLAY - Eurogamer",
+      "description": "Zoe Delahunty-Light has spent over a staggering 70 hours with #HorizonForbiddenWest and after making all those #HorizonZeroDawn lore videos, what does she th...",
+      "url": "https://www.youtube.com/watch?v=raLgkd6eLsw",
+      "urlToImage": "https://i.ytimg.com/vi/raLgkd6eLsw/maxresdefault.jpg",
+      "publishedAt": "2022-02-14T08:01:18Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "CNBC"
+      },
+      "author": "Anmar Frangoul",
+      "title": "Coal mines transformed society. Now, their flooded remains could heat the homes of the future - CNBC",
+      "description": "Most mines in the U.K. have fallen silent, but their centuries-old story isn't necessarily over.",
+      "url": "https://www.cnbc.com/2022/02/14/flooded-disused-coal-mines-could-change-how-our-homes-are-heated.html",
+      "urlToImage": "https://image.cnbcfm.com/api/v1/image/106882582-1620914748216-gettyimages-96390221-14mrk1243rf.jpeg?v=1644320162",
+      "publishedAt": "2022-02-14T07:45:05Z",
+      "content": "LONDON The ramifications of the Industrial Revolution, which had its roots in 18th-century Britain, were huge.\r\nBritain's abundance of coal as well as the ease with which it could be accessed was a c… [+6815 chars]"
+    },
+    {
+      "source": {
+        "id": "associated-press",
+        "name": "Associated Press"
+      },
+      "author": "Yuras Karmanau",
+      "title": "Ukraine president's ratings fall as crisis with Russia brews - Associated Press",
+      "description": "KYIV, Ukraine (AP) — As a political novice making an unlikely run to be Ukraine’s president, Volodymyr Zelenskyy vowed to reach out to Russia-backed rebels in the east who were fighting Ukrainian forces and make strides toward resolving the conflict.",
+      "url": "https://apnews.com/article/russia-ukraine-business-kyiv-europe-russia-fe82e0c34f0226b29764390e805b304a",
+      "urlToImage": "https://storage.googleapis.com/afs-prod/media/4ebe4607a4574ef99729764fb0e4dc3e/3000.jpeg",
+      "publishedAt": "2022-02-14T07:31:07Z",
+      "content": "KYIV, Ukraine (AP) As a political novice making an unlikely run to be Ukraines president, Volodymyr Zelenskyy vowed to reach out to Russia-backed rebels in the east who were fighting Ukrainian forces… [+6458 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "ESPN"
+      },
+      "author": "Dan Graziano",
+      "title": "Rams' Cooper Kupp delivers again - Amid the team's 'all-in' moves, the star third-round receiver leads them to victory, wins Super Bowl MVP - ESPN",
+      "description": "Yes, the Rams went \"all-in\" with big trades and signings. But don't forget about foundational players -- including the third-round pick who caught the Super Bowl's game-winning TD.",
+      "url": "https://www.espn.com/nfl/story/_/id/33284132/rams-cooper-kupp-delivers-again-amid-team-all-moves-star-third-round-receiver-leads-victory-wins-super-bowl-mvp",
+      "urlToImage": "https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2022%2F0214%2Fr974177_1296x729_16%2D9.jpg",
+      "publishedAt": "2022-02-14T06:56:28Z",
+      "content": "INGLEWOOD, Calif. -- The story we've been told about the Los Angeles Rams is that they \"went all-in\" to win this particular Super Bowl. That they were willing to mortgage their future for it. That wh… [+9818 chars]"
+    },
+    {
+      "source": {
+        "id": "cnn",
+        "name": "CNN"
+      },
+      "author": "Lisa Respers France, CNN",
+      "title": "Super Bowl halftime show brought all the hip-hop heat - CNN",
+      "description": "Old skool hip-hop showed the kids a thing or two Sunday night at the Pepsi Super Bowl LVI Halftime Show.",
+      "url": "https://www.cnn.com/2022/02/13/entertainment/halftime-show-super-bowl-2022/index.html",
+      "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/220213210218-01-super-bowl-halftime-2022-super-tease.jpg",
+      "publishedAt": "2022-02-14T06:41:00Z",
+      "content": null
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Sports Illustrated"
+      },
+      "author": "Dan Lyons",
+      "title": "Joe Burrow Tweets Message for Bengals Fans After Super Bowl Loss - Sports Illustrated",
+      "description": "After an incredible playoff run, Burrow and Cincinnati lost a tight game in Los Angeles.",
+      "url": "https://www.si.com/nfl/2022/02/14/joe-burrow-message-bengals-fans-super-bowl-lvi-loss-rams",
+      "urlToImage": "https://www.si.com/.image/ar_1.91:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cg_xy_center%2Cq_auto:good%2Cw_620%2Cx_1924%2Cy_1112/MTg3NDAzNzk0NjIxOTMzMzI3/burrow-huried.jpg",
+      "publishedAt": "2022-02-14T06:05:38Z",
+      "content": "Joe Burrow took the NFL by storm this postseason, leading the Bengals to the precipice of its first Super Bowl victory in franchise history.\r\nAfter Matthew Stafford found game MVP Cooper Kupp for a g… [+1275 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Marvel Entertainment"
+      },
+      "author": "Rachel Paige",
+      "title": "New 'Moon Knight' Spot and Poster Debut During the Big Game - Marvel Entertainment",
+      "description": "Enter the chaos on March 30, exclusively on Disney+.",
+      "url": "https://www.marvel.com/articles/tv-shows/new-moon-knight-trailer-poster-big-game",
+      "urlToImage": "https://terrigen-cdn-dev.marvel.com/content/prod/1x/maxresdefault_47.jpg",
+      "publishedAt": "2022-02-14T05:58:06Z",
+      "content": "Today, during the Big Game, an action-packed TV spot offered viewers a thrilling look at Marvel Studios' Moon Knight an original series from Marvel Studios exclusively for Disney+. Disney+ also unvei… [+983 chars]"
+    },
+    {
+      "source": {
+        "id": "associated-press",
+        "name": "Associated Press"
+      },
+      "author": "Lindsey Bahr",
+      "title": "Ivan Reitman, producer, 'Ghostbusters' director, dies at 75 - Associated Press",
+      "description": "Ivan Reitman, the influential filmmaker and producer behind many of the most beloved comedies of the late 20th century, from “Animal House” to “Ghostbusters,” has died. He was 75. Reitman died peacefully in his sleep Saturday night at his home in Montecito, C…",
+      "url": "https://apnews.com/article/ivan-reitman-dead-d67947aa895371cd9f5840e6e9339440",
+      "urlToImage": "https://storage.googleapis.com/afs-prod/media/0900e265b9654ce8a21c4c71f87353c4/3000.jpeg",
+      "publishedAt": "2022-02-14T04:41:15Z",
+      "content": "Ivan Reitman, the influential filmmaker and producer behind many of the most beloved comedies of the late 20th century, from Animal House to Ghostbusters, has died. He was 75.\r\nReitman died peacefull… [+6668 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "KOB"
+      },
+      "author": "Tommy Lopez",
+      "title": "APD: Suspect in custody following multiple stabbings - KOB",
+      "description": "",
+      "url": "https://www.kob.com/albuquerque-news/apd-investigate-multiple-stabbing-incidents-in-se-albuquerque/6392136/",
+      "urlToImage": "https://www.kob.com/kobtvimages/repository/2022-02/APD_Suspect_in_custody_following_multiple_stabbings-syndImport-112440.jpg",
+      "publishedAt": "2022-02-14T04:30:00Z",
+      "content": "All 11 victims are alive and stable after initially being taken to four hospitals, Gallegos said, but some have been in critical condition. Some have since left the hospital. \r\nThe victims include so… [+1229 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "New York Times"
+      },
+      "author": "Chris Cameron",
+      "title": "Covid News: Biden Suggests Ending Mask Mandates Is ‘Premature’ - The New York Times",
+      "description": "Some governors are defending lifting mask mandates. State attorneys general are issuing warnings about fake testing sites and shutting down operations they say are fraudulent.",
+      "url": "https://www.nytimes.com/live/2022/02/13/world/covid-19-tests-cases-vaccine",
+      "urlToImage": "https://static01.nyt.com/images/2022/02/13/multimedia/13virus-briefing-biden-01/13virus-briefing-biden-01-facebookJumbo.jpg",
+      "publishedAt": "2022-02-14T04:02:32Z",
+      "content": "A Center for Covid Control testing site in Worcester, Mass., was shut down after complaints about the practices of the company, which is under investigation by federal agencies and a number of states… [+4615 chars]"
+    }
+  ]
+}
