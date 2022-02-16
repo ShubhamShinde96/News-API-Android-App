@@ -5,7 +5,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import com.shubham.newsapiclientproject2.domain.usecase.GetNewsHeadlinesUseCase
 
-class ViewModelFactory(
+class NewsViewModelFactory(
     private val app: Application,
     private val getNewsHeadlineUseCase: GetNewsHeadlinesUseCase,
 ): ViewModelProvider.Factory {
