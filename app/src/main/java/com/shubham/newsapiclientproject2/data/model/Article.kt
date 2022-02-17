@@ -2,6 +2,7 @@ package com.shubham.newsapiclientproject2.data.model
 
 
 import com.google.gson.annotations.SerializedName
+import java.io.Serializable
 
 data class Article(
     @SerializedName("author")
@@ -13,17 +14,13 @@ data class Article(
     @SerializedName("publishedAt")
     val publishedAt: String,
     @SerializedName("source")
-    val source: Source,
+    val source: Source?,
     @SerializedName("title")
     val title: String,
     @SerializedName("url")
-    val url: String,
+    val url: String?,
     @SerializedName("urlToImage")
-    val urlToImage: String
+    val urlToImage: String?
 
 
-) {
-    override fun toString(): String {
-        return "Article(author=$author, content='$content', description='$description', publishedAt='$publishedAt', source=$source, title='$title', url='$url', urlToImage='$urlToImage')"
-    }
-}
+): Serializable

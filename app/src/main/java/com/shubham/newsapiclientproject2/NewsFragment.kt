@@ -8,6 +8,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.AbsListView
 import android.widget.Toast
+import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.shubham.newsapiclientproject2.data.model.Article
@@ -48,6 +49,18 @@ class NewsFragment : Fragment() {
         newsAdapter = (activity as MainActivity).newsAdapter
         binding = FragmentNewsBinding.bind(view)
 
+        newsAdapter.setOnItemClickListener {
+
+            val bundle = Bundle().apply {
+                putSerializable("selected_article", it)
+            }
+
+            findNavController().navigate(
+                R.id.action_newsFragment_to_infoFragment,
+                bundle
+            )
+        }
+
         initRecyclerView()
         viewNewsList()
     }
@@ -68,7 +81,7 @@ class NewsFragment : Fragment() {
 
                         Log.i("MY_TAG", "Article List.Size(): ${response.data.articles.size}")
 
-                        if (newsAdapter.differ.currentList.size > 0) {
+                        if (newsAdapter.differ.currentList.size > 0 && isScrolling) {
 
                             var newList: List<Article> = newsAdapter.differ.currentList.toList()
                             var newList2: ArrayList<Article> = arrayListOf()
@@ -104,6 +117,8 @@ class NewsFragment : Fragment() {
                     showProgressBar()
                 }
             }
+
+            isScrolling = false
         }
     }
 
@@ -157,7 +172,7 @@ class NewsFragment : Fragment() {
             if (shouldPaginate) {
                 page++
                 newsViewModel.getNewsHeadlines(country, page)
-                isScrolling = false
+//                isScrolling = false
             }
         }
     }

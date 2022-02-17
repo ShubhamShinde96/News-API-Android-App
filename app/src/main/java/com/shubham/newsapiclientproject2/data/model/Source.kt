@@ -8,4 +8,10 @@ data class Source(
     val id: String,
     @SerializedName("name")
     val name: String
-)
+
+
+) {
+    override fun hashCode(): Int {
+        return super.hashCode()
+    }
+}
