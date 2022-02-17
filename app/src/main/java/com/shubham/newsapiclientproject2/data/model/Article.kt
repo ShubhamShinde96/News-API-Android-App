@@ -20,4 +20,10 @@ data class Article(
     val url: String,
     @SerializedName("urlToImage")
     val urlToImage: String
-)
+
+
+) {
+    override fun toString(): String {
+        return "Article(author=$author, content='$content', description='$description', publishedAt='$publishedAt', source=$source, title='$title', url='$url', urlToImage='$urlToImage')"
+    }
+}

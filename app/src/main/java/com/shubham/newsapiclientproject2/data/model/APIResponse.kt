@@ -10,4 +10,10 @@ data class APIResponse(
     val status: String,
     @SerializedName("totalResults")
     val totalResults: Int
-)
+
+
+) {
+    override fun toString(): String {
+        return super.toString()
+    }
+}
