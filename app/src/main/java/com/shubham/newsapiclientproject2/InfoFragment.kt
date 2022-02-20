@@ -48,8 +48,8 @@ class InfoFragment : Fragment() {
 
         binding.fabSave.setOnClickListener {
 
-            val id = newsViewModel.saveArticle(article)
-            Snackbar.make(view, "Saved Successfully, id: $id", Snackbar.LENGTH_LONG).show()
+            newsViewModel.saveArticle(article)
+            Snackbar.make(view, "Saved Successfully.", Snackbar.LENGTH_LONG).show()
         }
 
     }
