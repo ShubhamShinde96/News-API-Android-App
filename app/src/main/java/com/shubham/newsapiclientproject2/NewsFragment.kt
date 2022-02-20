@@ -7,6 +7,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.AbsListView
+import android.widget.SearchView
 import android.widget.Toast
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -16,6 +17,9 @@ import com.shubham.newsapiclientproject2.data.util.Resource
 import com.shubham.newsapiclientproject2.databinding.FragmentNewsBinding
 import com.shubham.newsapiclientproject2.presentation.adapter.NewsAdapter
 import com.shubham.newsapiclientproject2.presentation.viewmodel.NewsViewModel
+import kotlinx.coroutines.MainScope
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.launch
 
 
 class NewsFragment : Fragment() {
@@ -63,9 +67,48 @@ class NewsFragment : Fragment() {
 
         initRecyclerView()
         viewNewsList()
+        setSearchView()
     }
 
     private fun viewNewsList() {
+
+        newsViewModel.getNewsHeadlines(country, page)
+
+        newsViewModel.newsHeadlines.observe(viewLifecycleOwner) { response ->
+
+            when (response) {
+
+                is Resource.Success -> {
+                    hideProgressBar()
+                    response.data?.let {
+                        newsAdapter.differ.submitList(it.articles.toList())
+
+                        if (it.totalResults % 20 == 0) {
+                            pages = it.totalResults / 20
+                        } else {
+                            pages = it.totalResults / 20 + 1
+                        }
+
+                        isLastPage = page == pages
+                    }
+                }
+
+                is Resource.Loading -> {
+                    showProgressBar()
+                }
+
+                is Resource.Error -> {
+                    hideProgressBar()
+
+                    response.message?.let {
+                        Toast.makeText(activity, "An error occured: $it", Toast.LENGTH_LONG).show()
+                    }
+                }
+            }
+        }
+    }
+
+    /*private fun viewNewsList() {
 
         newsViewModel.getNewsHeadlines(country, page)
 
@@ -120,7 +163,7 @@ class NewsFragment : Fragment() {
 
             isScrolling = false
         }
-    }
+    }*/
 
     private fun initRecyclerView() {
 
@@ -177,5 +220,76 @@ class NewsFragment : Fragment() {
         }
     }
 
+    private fun setSearchView() {
+
+        binding.searchViewNews.setOnQueryTextListener(object : SearchView.OnQueryTextListener {
+
+            override fun onQueryTextSubmit(query: String?): Boolean {
+
+                newsViewModel.getSearchedNews(country, query.toString(), page)
+                viewSearchedNews()
+                return false
+            }
+
+            override fun onQueryTextChange(newText: String?): Boolean {
+
+                MainScope().launch {
+
+                    delay(2000)
+                    newsViewModel.getSearchedNews(country, newText.toString(), page)
+                    viewSearchedNews()
+                }
+                return false
+            }
+
+        })
+
+        binding.searchViewNews.setOnCloseListener(object : SearchView.OnCloseListener{
+            override fun onClose(): Boolean {
+
+                initRecyclerView()
+                viewNewsList()
+                return false
+            }
+
+        })
+    }
+
+    // search
+    fun viewSearchedNews() {
+
+        newsViewModel.searchedNews.observe(viewLifecycleOwner) { response ->
+
+            when (response) {
+
+                is Resource.Success -> {
+                    hideProgressBar()
+                    response.data?.let {
+                        newsAdapter.differ.submitList(it.articles.toList())
+
+                        if (it.totalResults % 20 == 0) {
+                            pages = it.totalResults / 20
+                        } else {
+                            pages = it.totalResults / 20 + 1
+                        }
+
+                        isLastPage = page == pages
+                    }
+                }
+
+                is Resource.Loading -> {
+                    showProgressBar()
+                }
+
+                is Resource.Error -> {
+                    hideProgressBar()
+
+                    response.message?.let {
+                        Toast.makeText(activity, "An error occured: $it", Toast.LENGTH_LONG).show()
+                    }
+                }
+            }
+        }
+    }
 
 }
