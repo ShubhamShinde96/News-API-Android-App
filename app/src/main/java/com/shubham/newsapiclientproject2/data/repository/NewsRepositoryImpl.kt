@@ -1,7 +1,9 @@
 package com.shubham.newsapiclientproject2.data.repository
 
+import com.shubham.newsapiclientproject2.data.db.ArticleDAO
 import com.shubham.newsapiclientproject2.data.model.APIResponse
 import com.shubham.newsapiclientproject2.data.model.Article
+import com.shubham.newsapiclientproject2.data.repository.dataSource.NewsLocalDataSource
 import com.shubham.newsapiclientproject2.data.repository.dataSource.NewsRemoteDataSource
 import com.shubham.newsapiclientproject2.data.util.Resource
 import com.shubham.newsapiclientproject2.domain.repository.NewsRepository
@@ -9,7 +11,8 @@ import kotlinx.coroutines.flow.Flow
 import retrofit2.Response
 
 class NewsRepositoryImpl(
-    private val newsRemoteDataSource: NewsRemoteDataSource
+    private val newsRemoteDataSource: NewsRemoteDataSource,
+    private val newsLocalDataSource: NewsLocalDataSource
 ): NewsRepository {
 
 
@@ -39,7 +42,8 @@ class NewsRepositoryImpl(
     }
 
     override suspend fun saveNews(article: Article) {
-        TODO("Not yet implemented")
+
+        newsLocalDataSource.saveArticleToDB(article)
     }
 
     override suspend fun deleteNews(article: Article) {

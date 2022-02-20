@@ -1,12 +1,14 @@
 package com.shubham.newsapiclientproject2.data.model
 
+import androidx.room.Entity
+import androidx.room.PrimaryKey
 import com.google.gson.annotations.SerializedName
 import java.io.Serializable
 
-//@Entity(tableName = "articles")
+@Entity(tableName = "articles")
 data class Article(
 
-//    @PrimaryKey(autoGenerate = true)
+    @PrimaryKey(autoGenerate = true)
     val id: Int? = null,
 
     @SerializedName("author")
